@@ -1,0 +1,92 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0px;
+    background-image: url(img/bg.jpg);
+    background-size: cover;
+}
+
+header {
+    position: relative;
+    display: block;
+    height: 129px;
+    left: 0px;
+    top: 0px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    left: 0px;
+    top: 0px;
+    background: #534B62;
+}
+
+nav a {
+    width: 200px;
+    z-index: 3;
+    text-decoration: none;
+    font-family: 'Metal Mania';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 59px;
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #D6CFCB;
+
+    text-shadow: -2px 4px 5.7px #1E1E1E;
+}
+
+.shape {
+    /* Name_bg */
+    z-index: 2;
+    display: flex;
+    justify-self: center;
+    background-color: #711009;
+    width: 275px;
+    height: 275px;
+    border-bottom-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+    position: relative;
+    top: -180px;
+
+}
+
+.name {
+    /* Rectangle 3 */
+    width: 369px;
+    height: 124px;
+    background: #99170D;
+    border-radius: 20px 20px 0px 0px;
+}
+
+
+.name h1{
+    /* Events */
+
+    font-family: 'Metal Mania';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 79px;
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #1E1E1E;
+}
+
+.events{
+    /* Main scroller */
+
+    position: relative;
+    width: 80%;
+    height: 589px;
+    left: 20%;
+    top: 100px;
+
+    background-color: bisque;
+}
