@@ -1,14 +1,22 @@
 <html>
     <head>
         <link rel="stylesheet" href="style.css">
-        <script src="script.js"></script>
+        
         <title>Main</title>
         <style>
         @import url('https://fonts.googleapis.com/css2?family=Metal+Mania&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Playwrite+PL:wght@100..400&display=swap');
         </style>
     </head>
     <body> 
+        <div class="menu">
+            <div class="menu_btn"></div>
+            <button>btn1</button>
+            <button>btn2</button>
+            <button>btn3</button>
+            <button>btn4</button>
+        </div>
         <header>
+            
             <nav>
                 <a href="">Merch</a>
                 <a href="">Events</a>
@@ -22,9 +30,27 @@
             <div class="events">
                 <div class="name"><h1>Events</h1> </div>
                 <div class="events containter"> 
-                    
+                    <h1>Name</h1>
+                    <img src="placeholder.png"> 
                 </div>
             </div>
+
         </main>
     </body>
 </html>
+
+<script>
+    let menu_btn = document.querySelector(".menu_btn")
+    let menu = document.querySelector(".menu")
+
+    function move_menu() {
+        if (menu.style.left == "0%"){
+        menu.style.left = "-20%";
+        }
+        else {
+            menu.style.left = "0%";
+        }
+    }
+
+    menu_btn.addEventListener('click', move_menu)
+</script>

@@ -19,14 +19,14 @@ header {
 nav {
     display: flex;
     justify-content: space-around;
-    left: 0px;
+
     top: 0px;
     background: #534B62;
 }
 
 nav a {
     width: 200px;
-    z-index: 3;
+    z-index: 1;
     text-decoration: none;
     font-family: 'Metal Mania';
     font-style: normal;
@@ -85,8 +85,26 @@ nav a {
     position: relative;
     width: 80%;
     height: 589px;
-    left: 20%;
+    left: 10%;
     top: 100px;
 
-    background-color: bisque;
+}
+
+.menu{
+    display: block;
+    height: 100%;
+    width: 20%;
+    background-color: #D6CFCB;
+    position: fixed;
+    z-index: 2;
+    left: -20%;
+}
+
+.menu_btn{
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    position: relative;
+    left: 100%;
 }
