@@ -58,10 +58,13 @@ nav a {
 
 .name {
     /* Rectangle 3 */
-    width: 369px;
-    height: 124px;
     background: #99170D;
     border-radius: 20px 20px 0px 0px;
+    padding: 7px;
+    display: block;
+    width: 30%;
+    height: auto;
+    justify-self: center;
 }
 
 
@@ -77,34 +80,55 @@ nav a {
     text-transform: capitalize;
 
     color: #1E1E1E;
+    
 }
 
 .events{
     /* Main scroller */
-
     position: relative;
     width: 80%;
     height: 589px;
     left: 10%;
     top: 100px;
+    padding: 0px;
 
 }
 
-.menu{
-    display: block;
-    height: 100%;
-    width: 20%;
-    background-color: #D6CFCB;
-    position: fixed;
-    z-index: 2;
-    left: -20%;
-}
-
-.menu_btn{
-    display: block;
-    width: 100px;
-    height: 100px;
-    background-color: aqua;
+.on_img_text {
     position: relative;
-    left: 100%;
+    top: -485px;
+    width: 965px;
+    height: 485px;
+    background: linear-gradient(to top, rgba(30, 30, 30, 74), rgba(217, 217, 217, 0));
+    display: flex;
+    justify-content: right;
+    text-align: right;
+    align-items: end;
+      
+}
+
+.on_img_text p{
+    margin: 10px;
+}
+
+main {
+    font-family: 'Metal Mania';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    color: #D6CFCB;
+}
+
+.container{
+    /* Scroller */
+
+    position: relative;
+    display: block;
+    width: 80%;
+    height: auto;
+    padding: 20px;
+    left: 10%;
+
+    background: #373043;
+
 }
