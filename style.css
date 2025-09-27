@@ -56,61 +56,6 @@ nav a {
 
 }
 
-.name {
-    /* Rectangle 3 */
-    background: #99170D;
-    border-radius: 20px 20px 0px 0px;
-    padding: 7px;
-    display: block;
-    width: 30%;
-    height: auto;
-    justify-self: center;
-}
-
-
-.name h1{
-    /* Events */
-
-    font-family: 'Metal Mania';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 64px;
-    line-height: 79px;
-    text-align: center;
-    text-transform: capitalize;
-
-    color: #1E1E1E;
-    
-}
-
-.events{
-    /* Main scroller */
-    position: relative;
-    width: 80%;
-    height: 589px;
-    left: 10%;
-    top: 100px;
-    padding: 0px;
-
-}
-
-.on_img_text {
-    position: relative;
-    top: -485px;
-    width: 965px;
-    height: 485px;
-    background: linear-gradient(to top, rgba(30, 30, 30, 74), rgba(217, 217, 217, 0));
-    display: flex;
-    justify-content: right;
-    text-align: right;
-    align-items: end;
-      
-}
-
-.on_img_text p{
-    margin: 10px;
-}
-
 main {
     font-family: 'Metal Mania';
     font-style: normal;
@@ -119,16 +64,49 @@ main {
     color: #D6CFCB;
 }
 
-.container{
-    /* Scroller */
 
-    position: relative;
-    display: block;
+.events {
     width: 80%;
-    height: auto;
-    padding: 20px;
-    left: 10%;
+    margin-left: 10%;
+    justify-items: center;
+    
+}
 
-    background: #373043;
+.name {
+    background-color: #711009;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 40%;
+    text-align: center;
+    color:  #1E1E1E;
+}
 
+
+.container {
+    background-color: #373043;
+    display: block;
+    border-radius: 20px;
+    width: 100%;
+    height: 0;
+    padding-bottom: 60%;
+}
+
+.on_img_text {
+    background-image: url("placeholder.png");
+    width: 90%;
+    height: 0;
+    padding-bottom: 60%;
+    background-repeat: no-repeat;
+    background-size:contain;
+    text-align: right;
+    display: flex;   
+    /* justify-content: end; */
+    flex-direction: row-reverse;
+    align-items: flex-end;
+
+}
+
+.on_img_text p{
+    display: block;
+    top: -300%;
 }
